@@ -1,0 +1,15 @@
+
+public class Cricket {
+
+	public static void main(String[] args) {
+		
+		String ipl[]= {"Rohit","Virat","Dhoni","Hardhik","Kl Rahul"};
+		
+		System.out.println(ipl.length);
+        System.out.println(ipl[0]);
+		System.out.println(ipl[5]);
+
+		
+	}
+
+}

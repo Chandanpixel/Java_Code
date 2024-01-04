@@ -1,0 +1,32 @@
+
+public class Watch {
+	
+	void timeshows()  {
+		System.out.println("Time is perfect");
+	}
+	
+	class AnalogWatch extends TestInheritance3 {
+		 
+		void tiktik() {
+			System.out.println("Time showing ");
+		}
+	}
+		
+		class DigitalWatch extends Watch {
+			
+			void Digital() {
+				System.out.println("Digitally time  showing");
+			}
+		}
+		
+		 class TestInheritance3 extends Watch {
+			public static void main(String[] args) {
+				
+				DigitalWatch d = new DigitalWatch();
+				d.Digital();
+				d.timeshows();
+			}
+			
+		}
+
+}

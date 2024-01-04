@@ -1,0 +1,29 @@
+
+public class Cricket {
+
+	public static void main(String[] args) {
+		
+		String ipl[]= {"Rohit","Virat","Dhoni","Hardhik","Kl Rahul"};
+		
+		System.out.println(ipl.length);
+        System.out.println(ipl[0]);
+		System.out.println(ipl[4]);
+		
+		// System.out.println(ipl[5]);  // Array index out of bound 
+		
+		
+		// forward direction 
+		for(int i=0; i<ipl.length;i++) {
+			System.out.print(ipl[i]);
+		}
+
+		
+		
+		// backward direction 
+		
+		for(int i=ipl.length-1; i>=0;i--) {
+			System.out.print(ipl[i]);
+		}
+	}
+
+}

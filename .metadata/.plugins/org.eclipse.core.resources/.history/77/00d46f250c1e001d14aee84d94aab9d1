@@ -1,0 +1,19 @@
+
+public class Father {
+	long money = 5678848857857L;
+	String GfName ="Alia";
+	
+	void practiceYoga() {
+		System.out.println("Practice yoga");
+	}
+    void smoke() {
+    	System.out.println("Smoke");
+    }
+    
+    class son extends Father {
+    	public static void main(String[] args) {
+			
+		}
+    	
+    }
+}

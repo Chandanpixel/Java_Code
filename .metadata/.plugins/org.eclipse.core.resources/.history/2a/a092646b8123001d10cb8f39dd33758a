@@ -1,0 +1,19 @@
+
+public class Cricket {
+
+	public static void main(String[] args) {
+		
+		String ipl[]= new String [5];
+  
+		ipl[0]="Kohli";
+		ipl[1]="Dhoni";
+		ipl[2]="Rohit";
+
+
+		
+		
+		System.out.println(ipl);
+		
+	}
+
+}
